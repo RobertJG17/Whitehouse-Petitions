@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E140F6DB24C777A200DE62E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140F6DA24C777A200DE62E2 /* AppDelegate.swift */; };
+		E140F6DD24C777A200DE62E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140F6DC24C777A200DE62E2 /* SceneDelegate.swift */; };
+		E140F6DF24C777A200DE62E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140F6DE24C777A200DE62E2 /* ViewController.swift */; };
+		E140F6E224C777A200DE62E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E140F6E024C777A200DE62E2 /* Main.storyboard */; };
+		E140F6E424C777A700DE62E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E140F6E324C777A700DE62E2 /* Assets.xcassets */; };
+		E140F6E724C777A700DE62E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E140F6E524C777A700DE62E2 /* LaunchScreen.storyboard */; };
+		E140F6EF24C7884000DE62E2 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140F6EE24C7884000DE62E2 /* Petition.swift */; };
+		E140F6F124C789B400DE62E2 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140F6F024C789B400DE62E2 /* Petitions.swift */; };
+		E140F6F324CA370100DE62E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140F6F224CA370100DE62E2 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E140F6D724C777A200DE62E2 /* WhitehousePetitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitehousePetitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E140F6DA24C777A200DE62E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E140F6DC24C777A200DE62E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E140F6DE24C777A200DE62E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E140F6E124C777A200DE62E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E140F6E324C777A700DE62E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E140F6E624C777A700DE62E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E140F6E824C777A700DE62E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E140F6EE24C7884000DE62E2 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		E140F6F024C789B400DE62E2 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		E140F6F224CA370100DE62E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E140F6D424C777A200DE62E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E140F6CE24C777A200DE62E2 = {
+			isa = PBXGroup;
+			children = (
+				E140F6D924C777A200DE62E2 /* WhitehousePetitions */,
+				E140F6D824C777A200DE62E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E140F6D824C777A200DE62E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E140F6D724C777A200DE62E2 /* WhitehousePetitions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E140F6D924C777A200DE62E2 /* WhitehousePetitions */ = {
+			isa = PBXGroup;
+			children = (
+				E140F6DA24C777A200DE62E2 /* AppDelegate.swift */,
+				E140F6DC24C777A200DE62E2 /* SceneDelegate.swift */,
+				E140F6DE24C777A200DE62E2 /* ViewController.swift */,
+				E140F6EE24C7884000DE62E2 /* Petition.swift */,
+				E140F6F024C789B400DE62E2 /* Petitions.swift */,
+				E140F6F224CA370100DE62E2 /* DetailViewController.swift */,
+				E140F6E024C777A200DE62E2 /* Main.storyboard */,
+				E140F6E324C777A700DE62E2 /* Assets.xcassets */,
+				E140F6E524C777A700DE62E2 /* LaunchScreen.storyboard */,
+				E140F6E824C777A700DE62E2 /* Info.plist */,
+			);
+			path = WhitehousePetitions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E140F6D624C777A200DE62E2 /* WhitehousePetitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E140F6EB24C777A700DE62E2 /* Build configuration list for PBXNativeTarget "WhitehousePetitions" */;
+			buildPhases = (
+				E140F6D324C777A200DE62E2 /* Sources */,
+				E140F6D424C777A200DE62E2 /* Frameworks */,
+				E140F6D524C777A200DE62E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhitehousePetitions;
+			productName = WhitehousePetitions;
+			productReference = E140F6D724C777A200DE62E2 /* WhitehousePetitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E140F6CF24C777A200DE62E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Robert Guerra";
+				TargetAttributes = {
+					E140F6D624C777A200DE62E2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E140F6D224C777A200DE62E2 /* Build configuration list for PBXProject "WhitehousePetitions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E140F6CE24C777A200DE62E2;
+			productRefGroup = E140F6D824C777A200DE62E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E140F6D624C777A200DE62E2 /* WhitehousePetitions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E140F6D524C777A200DE62E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E140F6E724C777A700DE62E2 /* LaunchScreen.storyboard in Resources */,
+				E140F6E424C777A700DE62E2 /* Assets.xcassets in Resources */,
+				E140F6E224C777A200DE62E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E140F6D324C777A200DE62E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E140F6DF24C777A200DE62E2 /* ViewController.swift in Sources */,
+				E140F6EF24C7884000DE62E2 /* Petition.swift in Sources */,
+				E140F6DB24C777A200DE62E2 /* AppDelegate.swift in Sources */,
+				E140F6F324CA370100DE62E2 /* DetailViewController.swift in Sources */,
+				E140F6DD24C777A200DE62E2 /* SceneDelegate.swift in Sources */,
+				E140F6F124C789B400DE62E2 /* Petitions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E140F6E024C777A200DE62E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E140F6E124C777A200DE62E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E140F6E524C777A700DE62E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E140F6E624C777A700DE62E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E140F6E924C777A700DE62E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E140F6EA24C777A700DE62E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E140F6EC24C777A700DE62E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38RM5593K9;
+				INFOPLIST_FILE = WhitehousePetitions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guerra.WhitehousePetitions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E140F6ED24C777A700DE62E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38RM5593K9;
+				INFOPLIST_FILE = WhitehousePetitions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guerra.WhitehousePetitions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E140F6D224C777A200DE62E2 /* Build configuration list for PBXProject "WhitehousePetitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E140F6E924C777A700DE62E2 /* Debug */,
+				E140F6EA24C777A700DE62E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E140F6EB24C777A700DE62E2 /* Build configuration list for PBXNativeTarget "WhitehousePetitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E140F6EC24C777A700DE62E2 /* Debug */,
+				E140F6ED24C777A700DE62E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E140F6CF24C777A200DE62E2 /* Project object */;
+}
